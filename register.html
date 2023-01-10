@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Login</title>
+</head>
+<body class="container">
+  <div class="layout">
+    <img src="Logo-White.png" alt="Logo" />
+
+    <form class="form login">
+
+        <div class="form__field">
+            <label>
+              <div class="icon">
+                <i class="fa fa-user"></i>
+              </div>
+              <span class="hidden">Username</span>
+            </label>
+            <input autocomplete="username" id="loginUser" type="text" name="username" placeholder="Username" class="form__input" required />
+          </div>
+
+      <div class="form__field">
+        <label>
+          <div class="icon">
+            <i class="fa fa-envelope"></i>
+          </div>
+          <span class="hidden">Email</span>
+        </label>
+        <input autocomplete="email" id="loginEmail" type="text" name="email" placeholder="Email" class="form__input" required />
+      </div>
+
+      <div class="form__field">
+        <label>
+          <div class="icon">
+            <i class="fa fa-lock"></i>
+          </div>
+          <span class="hidden">Password</span>
+        </label>
+        <input id="loginPassword" type="text" name="password" placeholder="Password" class="form__input" required />
+      </div>
+
+      <div class="form__field">
+        <input type="submit" id="signIn" value="Sign Up" />
+      </div>
+
+    </form>
+
+    <p class="text--center">
+      Already a member? <a href="login.html">Sign in now</a>
+    </p>
+
+  </div>
+</body>
+</html>
